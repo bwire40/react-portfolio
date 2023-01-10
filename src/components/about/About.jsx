@@ -24,10 +24,12 @@ const About = () => {
             })}
           </div>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-            ultrices eu ante at tincidunt. Ut interdum eros eu diam mollis, id
-            facilisis ipsum hendrerit. Quisque nec mauris dui. Nam pulvinar sem
-            ut dignissim interdum.
+            An IT enthusiast passionate about software development and its
+            related entities. I enjoy working collaboratively but can also run
+            with projects independently. I am a Problem solver and a strong
+            communicator, eager to show-case my talents and add value. I’m also
+            motivated to advance and expand my skill set through targeted
+            mentorship and challenging projects.
           </p>
           <a href="#contacts" className="btn btn-primary">
             Lets Talk
