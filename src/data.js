@@ -6,7 +6,7 @@ import IMG4 from "./assets/meme.jpg";
 import IMG5 from "./assets/travel.png";
 import karimi from "./assets/karimi.png";
 import Wanyama from "./assets/kevin.png";
-import Kevin from "./assets/kevin1.png";
+import Kevin from "./assets/kevin1.jpg";
 import { MdEmail } from "react-icons/md";
 import { BsWhatsapp } from "react-icons/bs";
 
