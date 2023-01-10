@@ -14,6 +14,60 @@ import { BsAward } from "react-icons/bs";
 import { FiUsers } from "react-icons/fi";
 import { MdOutlineFolderSpecial } from "react-icons/md";
 const data = {
+  skillsFront: [
+    {
+      id: 1,
+      title: "HTML/CSS",
+      status: "Experienced",
+    },
+    {
+      id: 2,
+      title: "JavaScript",
+      status: "Intermediate",
+    },
+    {
+      id: 3,
+      title: "React",
+      status: "Intermediate",
+    },
+    {
+      id: 4,
+      title: "Bootstrap",
+      status: "Experienced",
+    },
+    {
+      id: 5,
+      title: "Tailwind",
+      status: "Intermediate",
+    },
+  ],
+  skillsBack: [
+    {
+      id: 1,
+      title: "PHP",
+      status: "Intermediate",
+    },
+    {
+      id: 2,
+      title: "Node JS",
+      status: "Intermediate",
+    },
+    {
+      id: 3,
+      title: "Firebase",
+      status: "Intermediate",
+    },
+    {
+      id: 4,
+      title: "MySQL",
+      status: "Intermediate",
+    },
+    {
+      id: 5,
+      title: "Mongo DB",
+      status: "Intermediate",
+    },
+  ],
   experience: [
     {
       id: 1,
@@ -48,7 +102,7 @@ const data = {
         "I offer UX/UI design for your projects increasing productivity and profits. ",
     },
     {
-      id: 1,
+      id: 3,
       service: "Digital Marketing",
       details:
         "I also offer you an opportunity to market your products digitally",
