@@ -2,11 +2,11 @@
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 2.5rem;
+    place-content: center;
 }
 .portfolio--item{
     background: var(--color-dark);
     padding: 1.2rem;
-    border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
 }

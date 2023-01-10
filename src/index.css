@@ -15,7 +15,8 @@
     --color-primary:#547793;
     --color-primary-variant:#32323266;
     --color-light-grey: #C1C9CC;
-    --color-dark:rgba(0,0,0)
+    --color-dark:rgba(0, 0, 0, 0.048);
+    --color-black:rgba(0,0,0);
 
     --container-width-lg:75%;
     --container-width-md:86%;
@@ -41,7 +42,7 @@ body{
 .container{
     width: var(--container-width-lg);
     margin:0 auto;
-    padding: 0 10rem;
+    padding: 0 2rem;
 }
 h1,h2,h3,h4,h5{
     font-weight: 500;
@@ -83,7 +84,7 @@ a:hover{
 }
 .btn:hover{
     background: var(--color-light-grey);
-    color: var(--color-dark);
+    color: var(--color-black);
     border-color: transparent;
 }
 .btn-primary{
