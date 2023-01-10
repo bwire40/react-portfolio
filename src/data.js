@@ -19,7 +19,7 @@ const data = {
       id: 1,
       icon: <BsAward className="about--icon" />,
       title: "Experience",
-      detail: "3+ working years",
+      detail: "3+ working and learning years",
     },
     {
       id: 2,
