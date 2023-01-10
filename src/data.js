@@ -1,5 +1,9 @@
 /* eslint-disable import/no-anonymous-default-export */
-import IMG1 from "./assets/me.jpeg";
+import IMG1 from "./assets/rps.png";
+import IMG2 from "./assets/cms.jpg";
+import IMG3 from "./assets/response.png";
+import IMG4 from "./assets/meme.jpg";
+import IMG5 from "./assets/travel.png";
 import { MdEmail } from "react-icons/md";
 import { BsWhatsapp } from "react-icons/bs";
 
@@ -51,44 +55,37 @@ const data = {
     {
       id: 1,
       image: IMG1,
-      title: "React resposive App",
-      gitLink: "https://github.com",
-      demoLink: "#",
+      title: "Simple RPS Game",
+      gitLink: "https://github.com/bwire40/RPS-GAME",
+      demoLink: "https://rps-game-vert.vercel.app/",
     },
     {
       id: 2,
-      image: IMG1,
-      title: "React resposive App",
-      gitLink: "#",
+      image: IMG2,
+      title: "CMS Blog",
+      gitLink: "https://github.com/bwire40/cms-blog",
       demoLink: "#",
     },
     {
       id: 3,
-      image: IMG1,
+      image: IMG3,
       title: "React resposive App",
-      gitLink: "#",
-      demoLink: "#",
+      gitLink: "https://github.com/bwire40/Responsive-React-app",
+      demoLink: "https://responsive-react-app-roan.vercel.app/",
     },
     {
       id: 4,
-      image: IMG1,
-      title: "React resposive App",
-      gitLink: "#",
-      demoLink: "#",
+      image: IMG4,
+      title: "Meme generator App",
+      gitLink: "https://github.com/bwire40/meme-generator-app",
+      demoLink: "https://meme-generator-app-two.vercel.app/",
     },
     {
       id: 5,
-      image: IMG1,
-      title: "React resposive App",
-      gitLink: "#",
-      demoLink: "#",
-    },
-    {
-      id: 6,
-      image: IMG1,
-      title: "React resposive App",
-      gitLink: "#",
-      demoLink: "#",
+      image: IMG5,
+      title: "Travel Journal React",
+      gitLink: "https://github.com/bwire40/my-travel-journal-app",
+      demoLink: "http://my-travel-journal-app.vercel.app/",
     },
   ],
   testimonials: [

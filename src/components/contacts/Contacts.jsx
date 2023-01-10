@@ -52,6 +52,7 @@ const Contacts = () => {
             </h3>
             <h4>Phone</h4>
             <h5>+254742923458</h5>
+            <p>Give me a call</p>
           </article>
         </div>
         {/* End of contact options */}

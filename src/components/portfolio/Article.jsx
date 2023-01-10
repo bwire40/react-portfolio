@@ -8,7 +8,7 @@ const Article = (props) => {
       </div>
       <h3>{props.title}</h3>
       <div className="portfolio--item-cta">
-        <a href={props.gitLink} className="btn">
+        <a href={props.gitLink} className="btn" target="">
           Github
         </a>
         <a

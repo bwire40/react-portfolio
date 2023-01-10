@@ -5,7 +5,6 @@
     place-content: center;
 }
 .portfolio--item{
-    background: var(--color-dark);
     padding: 1.2rem;
     border: 1px solid transparent;
     transition: var(--transition);
@@ -16,7 +15,6 @@
 }
 .portfolio--item-image{
     border-radius: 1.5rem;
-    overflow: hidden;
 }
 .portfolio--item-image img{
     width: 100%;
