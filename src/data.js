@@ -91,24 +91,22 @@ const data = {
   testimonials: [
     {
       id: 1,
-      name: "client_name",
+      name: "Karimi",
       image: IMG1,
-      testimony:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sit amet lacinia felis, a maximus augue. Proin dapibus bibendum turpis, a aliquam lacus feugiat id",
+      testimony: "I particularly loved his design on my portfolio.",
     },
     {
       id: 2,
-      name: "client_name",
+      name: "Wanyama Njoli",
       image: IMG1,
-      testimony:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sit amet lacinia felis, a maximus augue. Proin dapibus bibendum turpis, a aliquam lacus feugiat id",
+      testimony: "Work well done. Services were timely and efficient.",
     },
     {
       id: 3,
-      name: "client_name",
+      name: "Kevin",
       image: IMG1,
       testimony:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sit amet lacinia felis, a maximus augue. Proin dapibus bibendum turpis, a aliquam lacus feugiat id",
+        "Worked fast, the result was outstanding. The design is simple but very attractive.",
     },
   ],
   contacts: [
