@@ -2,7 +2,7 @@
 import React from "react";
 import "./nav.css";
 import { AiOutlineHome } from "react-icons/ai";
-import { FcAbout } from "react-icons/fc";
+import { GrInfo } from "react-icons/gr";
 import { BiBook } from "react-icons/bi";
 import { RiServiceLine } from "react-icons/ri";
 import { AiOutlineMessage } from "react-icons/ai";
@@ -27,7 +27,7 @@ const Nav = () => {
         onClick={() => setActiveNav("#about")}
         className={activeNav === "#about" ? "active" : ""}
       >
-        <FcAbout />
+        <GrInfo />
       </a>
       <a
         href="#portfolio"
