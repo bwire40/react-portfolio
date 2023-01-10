@@ -1,5 +1,8 @@
 /* eslint-disable import/no-anonymous-default-export */
 import IMG1 from "./assets/me.jpeg";
+import { MdEmail } from "react-icons/md";
+import { BsWhatsapp } from "react-icons/bs";
+
 const data = {
   projects: [
     {
@@ -66,6 +69,22 @@ const data = {
       image: IMG1,
       testimony:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sit amet lacinia felis, a maximus augue. Proin dapibus bibendum turpis, a aliquam lacus feugiat id",
+    },
+  ],
+  contacts: [
+    {
+      id: 1,
+      title: "Email",
+      detail: "emmanuelbwire80@gmail.com",
+      icon: <MdEmail />,
+      link: "mailto:emmanuelbwire80@gmail.com",
+    },
+    {
+      id: 2,
+      title: "Whatsapp",
+      detail: "+254742923458",
+      icon: <BsWhatsapp />,
+      link: "https://api.whatsapp.com/send?phone+254742923458",
     },
   ],
 };
