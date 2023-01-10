@@ -4,7 +4,7 @@
     gap: 1rem;
 }
 .service{
-    background-color: var(--color-primary-variant);
+    background-color: var(--color-bg-variant);
     border: 1px solid var(--color-primary);
     transition: var(--transition);
 }
