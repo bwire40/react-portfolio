@@ -1,5 +1,5 @@
 import React from "react";
-import ME from "../../assets/me.jpeg";
+import ME from "../../assets/cms.jpg";
 import "./about.css";
 import data from "../../data";
 const About = () => {
