@@ -4,6 +4,9 @@ import IMG2 from "./assets/cms.jpg";
 import IMG3 from "./assets/response.png";
 import IMG4 from "./assets/meme.jpg";
 import IMG5 from "./assets/travel.png";
+import karimi from "./assets/karimi.png";
+import Wanyama from "./assets/Kevin.png";
+import Kevin from "./assets/Kevin1.png";
 import { MdEmail } from "react-icons/md";
 import { BsWhatsapp } from "react-icons/bs";
 
@@ -36,7 +39,7 @@ const data = {
       id: 1,
       service: "Web Design",
       details:
-        "I offer web development services. From the development of the development to the hosting services.",
+        "I offer web development services. From the development of the website to the hosting.",
     },
     {
       id: 2,
@@ -92,19 +95,19 @@ const data = {
     {
       id: 1,
       name: "Karimi",
-      image: IMG1,
+      image: karimi,
       testimony: "I particularly loved his design on my portfolio.",
     },
     {
       id: 2,
       name: "Wanyama Njoli",
-      image: IMG1,
+      image: Wanyama,
       testimony: "Work well done. Services were timely and efficient.",
     },
     {
       id: 3,
       name: "Kevin",
-      image: IMG1,
+      image: Kevin,
       testimony:
         "Worked fast, the result was outstanding. The design is simple but very attractive.",
     },
