@@ -5,8 +5,8 @@ import IMG3 from "./assets/response.png";
 import IMG4 from "./assets/meme.jpg";
 import IMG5 from "./assets/travel.png";
 import karimi from "./assets/karimi.png";
-import Wanyama from "./assets/Kevin.png";
-import Kevin from "./assets/Kevin1.png";
+import Wanyama from "./assets/kevin.png";
+import Kevin from "./assets/kevin1.png";
 import { MdEmail } from "react-icons/md";
 import { BsWhatsapp } from "react-icons/bs";
 
