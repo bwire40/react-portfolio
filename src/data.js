@@ -4,6 +4,7 @@ import IMG2 from "./assets/cms.jpg";
 import IMG3 from "./assets/response.png";
 import IMG4 from "./assets/meme.jpg";
 import IMG5 from "./assets/travel.png";
+import IMG6 from "./assets/weather.png";
 import karimi from "./assets/karimi.png";
 import Wanyama from "./assets/kevin.png";
 import Kevin from "./assets/kevin1.jpg";
@@ -155,12 +156,12 @@ const data = {
     },
     {
       id: 6,
-      image: IMG5,
+      image: IMG6,
       title: "Weather App",
       description:
         "Using an API from weatherapi, this application is able to display weather information at from a searched location.",
       gitLink: "https://github.com/bwire40/weather-app",
-      demoLink: "http://weather-app.vercel.app/",
+      demoLink: "https://myweather-api-app.vercel.app/",
     },
   ],
   testimonials: [
