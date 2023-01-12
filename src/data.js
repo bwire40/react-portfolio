@@ -113,6 +113,8 @@ const data = {
       id: 1,
       image: IMG1,
       title: "Simple RPS Game",
+      description:
+        "This is a simple Rock Paper Scissors games implemented using HTML CSS and JavaScript.",
       gitLink: "https://github.com/bwire40/RPS-GAME",
       demoLink: "https://rps-game-vert.vercel.app/",
     },
@@ -120,13 +122,17 @@ const data = {
       id: 2,
       image: IMG2,
       title: "CMS Blog",
+      description:
+        "This CMS blog was created using PHP and MySQL. The application has user previlleges with the admin as the super-user. Users have the ability to comment on posts posted by the admin. ",
       gitLink: "https://github.com/bwire40/cms-blog",
       demoLink: "#",
     },
     {
       id: 3,
       image: IMG3,
-      title: "React resposive App",
+      title: "Web Tempate",
+      description:
+        "This template has been created using React and CSS3. It is a full-fledged application ready to use for commercial purposes.",
       gitLink: "https://github.com/bwire40/Responsive-React-app",
       demoLink: "https://responsive-react-app-roan.vercel.app/",
     },
@@ -134,6 +140,8 @@ const data = {
       id: 4,
       image: IMG4,
       title: "Meme generator App",
+      description:
+        "Using React fundamentals, i was able to try out this react meme generator application using an api.",
       gitLink: "https://github.com/bwire40/meme-generator-app",
       demoLink: "https://meme-generator-app-two.vercel.app/",
     },
@@ -141,8 +149,18 @@ const data = {
       id: 5,
       image: IMG5,
       title: "Travel Journal React",
+      description: "",
       gitLink: "https://github.com/bwire40/my-travel-journal-app",
       demoLink: "http://my-travel-journal-app.vercel.app/",
+    },
+    {
+      id: 6,
+      image: IMG5,
+      title: "Weather App",
+      description:
+        "Using an API from weatherapi, this application is able to display weather information at from a searched location.",
+      gitLink: "https://github.com/bwire40/weather-app",
+      demoLink: "http://weather-app.vercel.app/",
     },
   ],
   testimonials: [
