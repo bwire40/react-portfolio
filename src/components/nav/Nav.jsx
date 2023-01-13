@@ -8,11 +8,14 @@ import { RiServiceLine } from "react-icons/ri";
 import { AiOutlineMessage } from "react-icons/ai";
 import { BiMessageAltCheck } from "react-icons/bi";
 import { AiOutlineFundProjectionScreen } from "react-icons/ai";
+import { BsFillMoonFill } from "react-icons/bs";
+import { BsFillSunFill } from "react-icons/bs";
 
 import { useState } from "react";
 
-const Nav = () => {
+const Nav = ({ darkProp, handleDarkMode }) => {
   const [activeNav, setActiveNav] = useState("#");
+  let darkVal = darkProp;
   return (
     <nav>
       <a
@@ -65,6 +68,9 @@ const Nav = () => {
       >
         <AiOutlineMessage />
       </a>
+      <p onClick={handleDarkMode}>
+        {darkVal ? <BsFillSunFill /> : <BsFillMoonFill />}
+      </p>
     </nav>
   );
 };

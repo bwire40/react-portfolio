@@ -9,13 +9,18 @@ import Experience from "./components/experience/Experience";
 import Contacts from "./components/contacts/Contacts";
 import Services from "./components/services/Services";
 import Testimonials from "./components/testimonials/Testimonials";
+import { useState } from "react";
 
 const App = () => {
+  const [dark, setDark] = useState(false);
+  const handleDarkMode = (e) => {
+    setDark((prev) => !prev);
+  };
   return (
-    <>
+    <div className={dark ? "main--container dark" : "main--container"}>
       {/* components */}
       <Header />
-      <Nav />
+      <Nav darkProp={dark} handleDarkMode={handleDarkMode} />
       <About />
       <Portfolio />
       <Services />
@@ -24,7 +29,7 @@ const App = () => {
       <Testimonials />
       <Contacts />
       <Footer />
-    </>
+    </div>
   );
 };
 
