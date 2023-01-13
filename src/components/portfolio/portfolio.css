@@ -7,6 +7,9 @@
   transition: var(--transition);
   height: fit-content;
 }
+.portfolio--item p {
+  color: var(--color-primary);
+}
 .portfolio--item:hover {
   border-color: var(--color-primary-variant);
   background-color: transparent;

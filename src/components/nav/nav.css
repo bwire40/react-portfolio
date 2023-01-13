@@ -37,7 +37,7 @@ nav a.active {
 /* small devices */
 @media screen and (max-width: 600px) {
   nav {
-    width: 90%;
+    width: 98%;
     gap: 0.1rem;
     margin: auto;
   }
