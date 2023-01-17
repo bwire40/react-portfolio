@@ -124,7 +124,7 @@ const data = {
       image: IMG2,
       title: "CMS Blog",
       description:
-        "This CMS blog was created using PHP and MySQL. The application has user previlleges with the admin as the super-user. Users have the ability to comment on posts posted by the admin. ",
+        "This CMS blog was created using PHP and MySQL. The application has user previlleges with the admin as the super-user. Users have the ability to comment on posts posted by the admin.",
       gitLink: "https://github.com/bwire40/cms-blog",
       demoLink: "#",
     },
@@ -133,7 +133,7 @@ const data = {
       image: IMG3,
       title: "Web Tempate",
       description:
-        "This template has been created using React and CSS3. It is a full-fledged application ready to use for commercial purposes.",
+        "This template has been created using React and CSS3. It is a full-fledged application ready to use for commercial purposes. The application showcases the mastery of React Js fundamentals together with CSS3 and Tailwind CSS. The web template is also responsive, hence can be used on any device.",
       gitLink: "https://github.com/bwire40/Responsive-React-app",
       demoLink: "https://responsive-react-app-roan.vercel.app/",
     },
@@ -142,7 +142,7 @@ const data = {
       image: IMG4,
       title: "Meme generator App",
       description:
-        "Using React fundamentals, i was able to try out this react meme generator application using an api.",
+        "I was able to try out this react meme generator application using an external API.",
       gitLink: "https://github.com/bwire40/meme-generator-app",
       demoLink: "https://meme-generator-app-two.vercel.app/",
     },
@@ -150,7 +150,7 @@ const data = {
       id: 5,
       image: IMG5,
       title: "Travel Journal React",
-      description: "",
+      description: "A Basic React Application with Tailwind CSS.",
       gitLink: "https://github.com/bwire40/my-travel-journal-app",
       demoLink: "http://my-travel-journal-app.vercel.app/",
     },
