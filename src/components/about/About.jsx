@@ -24,12 +24,15 @@ const About = () => {
             })}
           </div>
           <p>
-            An IT enthusiast passionate about software development and its
-            related entities. I enjoy working collaboratively but can also run
-            with projects independently. I am a Problem solver and a strong
-            communicator, eager to show-case my talents and add value. I’m also
-            motivated to advance and expand my skill set through targeted
-            mentorship and challenging projects.
+            As a software developer, I've spent countless hours experimenting,
+            learning, and building real-world solutions. From collaborating with
+            teams on dynamic projects to fine-tuning every detail of an app, my
+            work revolves around a core belief: There’s always something new to
+            learn, and there’s always a better way to do things. Welcome to my
+            portfolio, where curiosity meets creativity. Here, you’ll see the
+            projects that not only showcase my skills but also my love for
+            learning and growing as a developer. If you're interested in working
+            together or just want to talk code, let's connect!
           </p>
           <a href="#contacts" className="btn btn-primary">
             Lets Talk

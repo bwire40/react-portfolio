@@ -12,20 +12,25 @@ const Contacts = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm(
-      "service_h2coh4b",
-      "template_i3f9o4b",
-      form.current,
-      "so8g7AC2k4NyzJwO3"
-    );
-    e.target.reset().then(
-      (result) => {
-        console.log(result.text);
-      },
-      (error) => {
-        console.log(error.text);
-      }
-    );
+    // Send the form via EmailJS
+    emailjs
+      .sendForm(
+        "service_d55xof5",
+        "template_7f57iz7",
+        form.current,
+        "4dJp1wIPPsZWEDtgL"
+      )
+      .then(
+        (result) => {
+          console.log("Email sent successfully: ", result.text);
+          // Reset the form after successful email send
+          e.target.reset(); // No need for .then() here
+          alert("Email sent. We'll get in touch with you soon.");
+        },
+        (error) => {
+          console.log("Error sending email: ", error.text);
+        }
+      );
   };
   return (
     <section id="contacts">
@@ -46,13 +51,23 @@ const Contacts = () => {
               </>
             );
           })}
-          <article className="contact--option">
+          <article
+            className="contact--option"
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              justifyContent: "center",
+              alignItems: "center",
+            }}
+          >
             <h3>
               <AiFillPhone />
             </h3>
             <h4>Phone</h4>
             <h5>+254742923458</h5>
-            <p>Give me a call</p>
+            <p style={{ color: "#406c91", textAlign: "center", fontSize: 12 }}>
+              Give me a call
+            </p>
           </article>
         </div>
         {/* End of contact options */}

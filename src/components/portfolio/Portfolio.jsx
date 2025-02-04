@@ -29,7 +29,7 @@ const Portfolio = () => {
             return (
               <SwiperSlide key={id} className="portfolio--item">
                 <div className="portfolio--item-image">
-                  <img src={image} alt="" />
+                  <img src={image} alt="" width={100} />
                 </div>
                 <h3>{title}</h3>
                 <p>{description}</p>
