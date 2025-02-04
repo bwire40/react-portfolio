@@ -45,7 +45,9 @@ const Footer = () => {
         </a>
       </div>
       <div className="footer--copyright">
-        <small>&copy;Emmanuel Bwire 2023. All rights reserved.</small>
+        <small>
+          &copy;Emmanuel Bwire {new Date().getFullYear()}. All rights reserved.
+        </small>
       </div>
     </footer>
   );
